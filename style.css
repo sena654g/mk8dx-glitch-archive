@@ -8,15 +8,6 @@
     min-height: 100vh;
 }
 
-.sidebar {
-    width: 280px;
-    background: #f0f0f0;
-    padding: 30px;
-    padding-right: 40px;
-    box-sizing: border-box;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
-}
-
 .content {
     flex: 1;
     padding: 40px;
@@ -28,9 +19,28 @@ h1 {
     padding-bottom: 15px;
 }
 
-.sidebar a {
+.sidebar {
+    width: 280px;
+    flex-shrink: 0;
+    background: #f0f0f0;
+    padding: 30px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    align-self: stretch;
+}
+
+.back-link,
+.sidebar a,
+.course-list a {
     text-decoration: none;
     color: #2b99f6;
+}
+
+.back-link:hover,
+.sidebar a:hover,
+.course-list a:hover {
+    text-decoration: underline;
 }
 
 .sidebar ul {
@@ -41,8 +51,4 @@ h1 {
 img {
     max-width: 30%;
     height: auto;
-}
-
-#sidebar-placeholder {
-    display: contents;
 }

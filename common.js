@@ -1,15 +1,30 @@
-function loadSidebar() {
-    fetch('sidebar.html')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('sidebar-placeholder').innerHTML = html;
+const pages = {
+    ...homePage,
+    ...stuckGlitchPages,
+    ...afterimagePages,
+    ...invertedCameraPages,
+    ...buriedGlitchPages,
+    ...pipeClipGlitchPages
+};
 
-            const isJapanese = location.pathname.includes('-ja.html');
-            const suffix = isJapanese ? '-ja.html' : '.html';
-            document.querySelectorAll('.sidebar a[data-page]').forEach(link => {
-                link.href = link.dataset.page + suffix;
-            });
-        });
+function renderPage(pageName) {
+    const page = pages[pageName] || pages['home'];
+    document.title = page.title;
+    document.getElementById('content-area').innerHTML = page.html;
+
+    document.querySelectorAll('video').forEach(video => {
+        video.volume = 0.2;
+    });
 }
 
-loadSidebar();
+function getCurrentPage() {
+    return location.hash.replace('#', '') || 'home';
+}
+
+window.addEventListener('hashchange', () => {
+    renderPage(getCurrentPage());
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+    renderPage(getCurrentPage());
+});
