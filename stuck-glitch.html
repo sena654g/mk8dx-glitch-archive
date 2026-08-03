@@ -7,26 +7,25 @@
 </head>
 <body>
     <div class="page">
-        <nav class="sidebar">
-            <a href="index.html">Home</a>
-            <h2>Glitch List</h2>
-            <ul>
-                <li><a href="stuck-glitch.html">Stuck Glitch</a></li>
-                <li><a href="afterimage-glitch.html">Afterimage Glitch</a></li>
-                <li><a href="star-effect-glitch.html">Star Effect Glitch</a></li>
-            </ul>
-        </nav>
+        <div id="sidebar-placeholder"></div>
         <main class="content">
             <h1>Stuck Glitch</h1>
             <p>There are objects on the stage that you can get stuck in. Once you're stuck, you can't use the accelerator or jump, and you won't be able to get out unless you use items like Stars or Killers.</p>
             <p>Some of the courses have objects and terrain in between. Here are some examples.</p>
-            <h2>Waruigi Studium</h2>
-            <img src="images/warusuta.png" alt="waruigi studium">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/j5S7yJbi5N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            <h2>Atene Poris</h2>
-            <img src="images/atene.png" alt="atene poris">
-            <h2>twisted manshon</h2>
-            <img src="images/twisted.png" alt="twisted manshon">
+            <h2>Waluigi Stadium</h2>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/j5S7yJbi5N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>Athens Dash</h2>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/PuakrnTo0Qs?si=-Sbyqsr8-_g1EY6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>Twisted Mansion</h2>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/wS7SAXjP0D8?si=ZeMlsOAIH1fAH9hC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </main>
     </div>
+    <script>
+fetch('sidebar.html')
+    .then(response => response.text())
+    .then(html => {
+        document.getElementById('sidebar-placeholder').innerHTML = html;
+    });
+    </script>
 </body>
 </html>
