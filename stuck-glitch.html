@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Stuck Glitch</title>
     <link rel="stylesheet" href="style.css">
+    <script src="common.js" defer></script>
 </head>
 <body>
     <div class="page">
@@ -12,20 +13,13 @@
             <h1>Stuck Glitch</h1>
             <p>There are objects on the stage that you can get stuck in. Once you're stuck, you can't use the accelerator or jump, and you won't be able to get out unless you use items like Stars or Killers.</p>
             <p>Some of the courses have objects and terrain in between. Here are some examples.</p>
-            <h2>Waluigi Stadium</h2>
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/j5S7yJbi5N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <h2>Athens Dash</h2>
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/PuakrnTo0Qs?si=-Sbyqsr8-_g1EY6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <h2>Twisted Mansion</h2>
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/wS7SAXjP0D8?si=ZeMlsOAIH1fAH9hC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>Waruigi Studium</h2>
+            <img src="images/warusuta.png" alt="waruigi studium">
+            <h2>Atene Poris</h2>
+            <img src="images/atene.png" alt="atene poris">
+            <h2>twisted manshon</h2>
+            <img src="images/twisted.png" alt="twisted manshon">
         </main>
     </div>
-    <script>
-fetch('sidebar.html')
-    .then(response => response.text())
-    .then(html => {
-        document.getElementById('sidebar-placeholder').innerHTML = html;
-    });
-    </script>
 </body>
 </html>
