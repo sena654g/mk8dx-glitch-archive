@@ -4,7 +4,9 @@ const pages = {
     ...afterimagePages,
     ...invertedCameraPages,
     ...buriedGlitchPages,
-    ...pipeClipGlitchPages
+    ...pipeClipGlitchPages,
+    ...edgeClipPages,
+    ...wallCrossPages
 };
 
 function renderPage(pageName) {

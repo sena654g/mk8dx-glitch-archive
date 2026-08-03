@@ -32,14 +32,16 @@ h1 {
 
 .back-link,
 .sidebar a,
-.course-list a {
+.course-list a,
+.content a {
     text-decoration: none;
     color: #2b99f6;
 }
 
 .back-link:hover,
 .sidebar a:hover,
-.course-list a:hover {
+.course-list a:hover,
+.content a:hover {
     text-decoration: underline;
 }
 
