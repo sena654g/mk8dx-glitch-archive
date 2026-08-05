@@ -25,7 +25,7 @@ h1 {
 .sidebar {
     width: 280px;
     flex-shrink: 0;
-    background: rgba(197, 167, 103, 0.096);
+    background: rgba(197, 167, 103, 0);
     padding: 30px;
     padding-right: 40px;
         padding-top: 80px; /* ここを増やすと全体が下にずれる */
@@ -204,3 +204,70 @@ video {
     margin-bottom: 20px;
 }
 
+
+
+
+
+
+
+@media (max-width: 600px) {
+    #menu-toggle {
+        width: 76px;
+        height: 76px;
+        top: 16px;
+        left: 16px;
+    }
+
+    #menu-toggle span {
+        width: 30px;
+        height: 3px;
+    }
+
+    /* サイドバーは画面のほぼ全体を覆う */
+    .sidebar {
+        width: 92vw;
+        max-width: none;
+        padding-top: 100px;
+    }
+
+    .sidebar a {
+        font-size: 28px;
+        line-height: 1.4;
+        display: block;
+        padding: 16px 0;
+        text-align: center;
+    }
+
+    .sidebar-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .sidebar-home {
+        text-align: center;
+    }
+
+    /* コンテンツ(タイトル・文章・動画・画像)を中央寄せ */
+    .content {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+
+    .content video,
+    .content img {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .glitch-table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
