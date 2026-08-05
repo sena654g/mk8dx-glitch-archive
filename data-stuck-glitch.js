@@ -4,29 +4,75 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck Glitch</h1>
             <p>There are objects on the stage that you can get stuck in. Once you're stuck, you can't use the accelerator or jump, and you won't be able to get out unless you use items like Stars or Killers.</p>
-            <p>Here are the courses where this occurs:</p>
-             <table class="glitch-table">
-            <tbody>
-                <tr>
-    <td class="name-cell"><a href="#stuck-waluigi">Waluigi Stadium</a></td>
-    <td class="thumb-cell"><img src="images/icons/Waluigi_Stadium_Icon.webp" class="course-thumb"></td>
-</tr>
-                <tr><td><a href="#stuck-athens">Athens Dash</a></td></tr>
-                <tr><td><a href="#stuck-twisted">Twisted Mansion</a></td></tr>
-                <tr><td><a href="#stuck-ros">Los Angeles Laps</a></td></tr>
-                <tr><td><a href="#stuck-merry-mountain">Merry Mountain</a></td></tr>
-                <tr><td><a href="#stuck-misaki">Dolphin Shoals</a></td></tr>
-                <tr><td><a href="#stuck-ribon">Ribbon Road</a></td></tr>
-                <tr><td><a href="#stuck-tikutaku">Tick-Tock Clock</a></td></tr>
-                <tr><td><a href="#stuck-sunshine">Sunshine Airport</a></td></tr>
-                <tr><td><a href="#stuck-coconut">Coconut Mall</a></td></tr>
-                <tr><td><a href="#stuck-dezikuru">Daisy Cruiser</a></td></tr>
-                <tr><td><a href="#stuck-gura">Grumble Volcano</a></td></tr>
-                <tr><td><a href="#stuck-jungle">DK Jungle</a></td></tr>
-                <tr><td><a href="#stuck-kurosu">DK Summit</a></td></tr>
-                <tr><td><a href="#stuck-nin">Ninja Hideaway</a></td></tr>
-                <tr><td><a href="#stuck-pakusin">Piranha Plant Cove</a></td></tr>
-            </tbody>
+            <p></br>Here are the courses where this occurs:</p>
+            <table class="glitch-table">
+    <tbody>
+        <tr>
+            <td class="name-cell"><a href="#stuck-waluigi">Waluigi Stadium</a></td>
+            <td class="thumb-cell"><img src="images/icons/Waluigi_Stadium_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-athens">Athens Dash</a></td>
+            <td class="thumb-cell"><img src="images/icons/Athens_Dash_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-twisted">Twisted Mansion</a></td>
+            <td class="thumb-cell"><img src="images/icons/Twisted_Mansion_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-ros">Los Angeles Laps</a></td>
+            <td class="thumb-cell"><img src="images/icons/Los_Angeles_Laps_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-merry-mountain">Merry Mountain</a></td>
+            <td class="thumb-cell"><img src="images/icons/Merry_Mountain_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-misaki">Dolphin Shoals</a></td>
+            <td class="thumb-cell"><img src="images/icons/Dolphin_Shoals_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-ribon">Ribbon Road</a></td>
+            <td class="thumb-cell"><img src="images/icons/Ribbon_Road_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-tikutaku">Tick-Tock Clock</a></td>
+            <td class="thumb-cell"><img src="images/icons/Tick-Tock_Clock_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-sunshine">Sunshine Airport</a></td>
+            <td class="thumb-cell"><img src="images/icons/Sunshine_Airport_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-coconut">Coconut Mall</a></td>
+            <td class="thumb-cell"><img src="images/icons/Coconut_Mall_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-dezikuru">Daisy Cruiser</a></td>
+            <td class="thumb-cell"><img src="images/icons/Daisy_Cruiser_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-gura">Grumble Volcano</a></td>
+            <td class="thumb-cell"><img src="images/icons/Grumble_Volcano_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-jungle">DK Jungle</a></td>
+            <td class="thumb-cell"><img src="images/icons/DK_Jungle_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-kurosu">DK Summit</a></td>
+            <td class="thumb-cell"><img src="images/icons/DK_Summit_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-nin">Ninja Hideaway</a></td>
+            <td class="thumb-cell"><img src="images/icons/Ninja_Hideaway_Icon.webp" class="course-thumb"></td>
+        </tr>
+        <tr>
+            <td class="name-cell"><a href="#stuck-pakusin">Piranha Plant Cove</a></td>
+            <td class="thumb-cell"><img src="images/icons/Piranha_Plant_Cove_Icon.webp" class="course-thumb"></td>
+        </tr>
+    </tbody>
+</table>
         </table>
         `
     },

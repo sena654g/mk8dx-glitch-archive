@@ -1,6 +1,8 @@
 ﻿body {
     margin: 0;
     font-family: sans-serif;
+        background: #000;
+    color: #fff;
 }
 
 .page {
@@ -16,14 +18,14 @@
 
 h1 {
     font-size: 60px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     padding-bottom: 15px;
 }
 
 .sidebar {
     width: 280px;
     flex-shrink: 0;
-    background: rgba(0, 0, 0, 0.651);
+    background: rgba(197, 167, 103, 0.096);
     padding: 30px;
     padding-right: 40px;
         padding-top: 80px; /* ここを増やすと全体が下にずれる */
@@ -91,7 +93,7 @@ h1 {
 }
 
 img {
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -101,7 +103,7 @@ img {
 }
 
 .glitch-table td {
-    background: #000;
+    background: #ffffff;
     font-size: 14px;
     text-align: center;
     vertical-align: middle;
@@ -166,13 +168,15 @@ img {
     
 }
 .home-page p {
-    top: -60px;
-}
-.home-page h1 {
-    font-size: 70px; /* お好みで調整 */
-      margin-bottom: 30px;
+    top: -50px;
 }
 
+.home-page h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+    border-bottom: none;
+    padding-bottom: 0;
+}
 
 
 
@@ -193,4 +197,9 @@ img {
 /* 文字はホームページ以外で常にサイドバー分右にずらす */
 .page:not(:has(.home-page)) .content {
     margin-left: 280px;
+}
+
+video {
+    display: block;
+    margin-bottom: 20px;
 }

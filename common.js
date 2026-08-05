@@ -6,7 +6,10 @@ const pages = {
     ...buriedGlitchPages,
     ...pipeClipGlitchPages,
     ...edgeClipPages,
-    ...wallCrossPages
+    ...wallCrossPages,
+    ...driftOnDirtPages,
+    ...blackHolePages,
+    ...hiddenDashPanelPages
 };
 
 function renderPage(pageName) {
