@@ -204,33 +204,15 @@ video {
     margin-bottom: 20px;
 }
 
-
 @media (max-width: 600px) {
-    #menu-toggle {
-        width: 76px;
-        height: 76px;
-        top: 16px;
-        left: 16px;
-    }
-
-    #menu-toggle span {
-        width: 30px;
-        height: 3px;
-    }
-
-    .sidebar {
-        width: 85%;
-        max-width: 320px;
-        padding-top: 100px;
-    }
-
     .sidebar a {
-        font-size: 28px;      /* 20px → 28px */
+        font-size: 42px !important;
+        line-height: 1.4;
         display: block;
-        padding: 16px 0;      /* 10px → 16px、タップ範囲も拡大 */
+        padding: 20px 0;
     }
 
     .sidebar-title {
-        font-size: 30px;      /* 22px → 30px */
+        font-size: 44px !important;
     }
 }
