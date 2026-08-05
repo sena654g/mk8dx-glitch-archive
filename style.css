@@ -277,11 +277,19 @@ video {
     .sidebar.open ~ .content {
         display: none;
     }
-}
-@media (max-width: 600px) {
+
     .page:not(:has(.home-page)) .content {
         margin-left: 0;
     }
+
+
+    .thumb-cell {
+    width: 60px;
+}
+
+.course-thumb {
+    width: 60px;
+}
 }
 
 * {
