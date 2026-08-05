@@ -8,12 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
         sidebar.classList.toggle('open');
     });
 
-        // メニュー内のリンクをクリックしたら閉じる
-    sidebar.querySelectorAll("a").forEach(link => {
-        link.addEventListener("click", () => {
-            sidebar.classList.remove("open");
-        });
+ document.addEventListener("pageRendered", () => {
+    requestAnimationFrame(() => {
+        sidebar.classList.remove("open");
     });
+});
 
     document.addEventListener('click', (e) => {
         if (

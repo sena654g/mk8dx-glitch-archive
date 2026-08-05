@@ -283,3 +283,7 @@ video {
         margin-left: 0;
     }
 }
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}

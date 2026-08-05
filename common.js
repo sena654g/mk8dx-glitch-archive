@@ -24,6 +24,8 @@ function renderPage(pageName) {
     document.querySelectorAll('video').forEach(video => {
         video.volume = 0.2;
     });
+
+    document.dispatchEvent(new Event("pageRendered"));
 }
 
 function getCurrentPage() {
