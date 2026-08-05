@@ -13,12 +13,18 @@
     <script src="data-edge-clip.js" defer></script>
     <script src="data-wall-cross.js" defer></script>
     <script src="common.js" defer></script>
+    <script src="menu-toggle.js" defer></script>
 </head>
 <body>
+    <button id="menu-toggle" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
     <div class="page">
         <nav class="sidebar">
-            <a href="#home">Home</a>
-            <h2>Glitch List</h2>
+            <a href="#home" class="sidebar-home">Home</a>
+            <h2 class="sidebar-title">Glitch List</h2>
             <ul>
                 <li><a href="#stuck-glitch">Stuck Glitch</a></li>
                 <li><a href="#afterimage-glitch">Afterimage Glitch</a></li>
