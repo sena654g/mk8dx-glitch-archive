@@ -205,7 +205,6 @@ video {
 }
 
 
-
 @media (max-width: 600px) {
     #menu-toggle {
         width: 76px;
@@ -226,12 +225,12 @@ video {
     }
 
     .sidebar a {
-        font-size: 20px;
+        font-size: 28px;      /* 20px → 28px */
         display: block;
-        padding: 10px 0;
+        padding: 16px 0;      /* 10px → 16px、タップ範囲も拡大 */
     }
 
     .sidebar-title {
-        font-size: 22px;
+        font-size: 30px;      /* 22px → 30px */
     }
 }
