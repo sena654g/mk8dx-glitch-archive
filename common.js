@@ -17,6 +17,10 @@ function renderPage(pageName) {
     document.title = page.title;
     document.getElementById('content-area').innerHTML = page.html;
 
+    // ホームだけスクロール禁止
+    document.body.style.overflow = pageName === "home" ? "hidden" : "";
+
+
     document.querySelectorAll('video').forEach(video => {
         video.volume = 0.2;
     });

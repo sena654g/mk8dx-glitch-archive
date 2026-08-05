@@ -142,13 +142,8 @@ img {
     position: fixed;
     inset: 0;
     z-index: -1;
-    background: rgba(0, 0, 0, 0.44); /* 数字を大きくするともっと暗くなる */
+    background: rgba(0, 0, 0, 0.44); 
 }
-.home-page > * {
-    position: relative;
-    z-index: 1;
-}
-
 .home-page {
     position: relative;
     padding: 0;
@@ -159,8 +154,15 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-bottom: 400px; /* 下からの余白。お好みで調整してください */
+    padding-bottom: 400px; 
 }
+
+
+.home-page > * {
+    position: relative;
+    z-index: 1;
+}
+
 .home-page h1,
 .home-page p {
     color: #fff;
