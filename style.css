@@ -203,3 +203,35 @@ video {
     display: block;
     margin-bottom: 20px;
 }
+
+
+
+@media (max-width: 600px) {
+    #menu-toggle {
+        width: 76px;
+        height: 76px;
+        top: 16px;
+        left: 16px;
+    }
+
+    #menu-toggle span {
+        width: 30px;
+        height: 3px;
+    }
+
+    .sidebar {
+        width: 85%;
+        max-width: 320px;
+        padding-top: 100px;
+    }
+
+    .sidebar a {
+        font-size: 20px;
+        display: block;
+        padding: 10px 0;
+    }
+
+    .sidebar-title {
+        font-size: 22px;
+    }
+}
