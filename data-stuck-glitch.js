@@ -100,7 +100,7 @@ const stuckGlitchPages = {
             <h1>Stuck Glitch > Twisted Mansion</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
             <video src="videos/twist.mp4" controls width="600"></video>
-            <p>You can use a mushroom on the sloped floor on the right to spawn an MT and then jump to the left to get stuck.</p>
+            <p>Use a Mushroom on the sloped floor to the right to charge a Mini-Turbo, then hop to the left to get stuck.</p>
         `
     },
     "stuck-ros": {
@@ -109,7 +109,7 @@ const stuckGlitchPages = {
             <h1>Stuck Glitch > Los Angeles Laps</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
             <video src="videos/rosanze.mp4" controls width="600"></video>
-            <p>You can ride a glider and get wedged by timing it right to hit objects that move up and down. The character's movement after getting stuck is pretty unique.</p>
+            <p>Glide into the moving object at the right timing to cancel your glider and become stuck. While stuck, your character continues moving in a unique way. This glitch is very difficult to perform.</p>
         `
     },
     "stuck-merry-mountain": {
@@ -127,7 +127,7 @@ const stuckGlitchPages = {
             <h1>Stuck Glitch > Dolphin Shoals</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
             <video src="videos/misaki.mp4" controls width="600"></video>
-            <p>If you hold down and ride the current, you'll rise, so you can just ride the jellyfish and get stuck. When stacked, the characters tend to move up and down. When you move the stick, the character tilts.</p>
+            <p>Hold down while riding the current to rise upward, then ride onto the jellyfish to get stuck. Once stuck, your character tends to bob up and down. Moving the control stick causes the character to tilt.</p>
         `
     },
     "stuck-ribon": {
@@ -190,7 +190,7 @@ const stuckGlitchPages = {
             <h1>Stuck Glitch > DK Jungle</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
             <video src="videos/jungle.mp4" controls width="600"></video>
-            <p>Use a Mushroom to land on the rock.</p>
+            <p>Use a Mushroom to land on top of the rock.</p>
         `
     },
     "stuck-kurosu": {

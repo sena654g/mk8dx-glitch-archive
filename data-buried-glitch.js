@@ -3,8 +3,7 @@ const buriedGlitchPages = {
         title: "Buried Glitch",
         html: `
             <h1>Buried Glitch</h1>
-            <p>It's a bug where tires get stuck in the ground and can't move in low-gravity areas. The principle behind it isn't well understood.</p>
-            <p></br>Here are the courses where this occurs:</p>
+<p>This glitch causes your tires to become stuck in the ground in low-gravity areas, preventing movement. The exact cause is not yet well understood.</p>            <p></br>Here are the courses where this occurs:</p>
             <table class="glitch-table">
     <tbody>
         <tr>
@@ -16,7 +15,6 @@ const buriedGlitchPages = {
             <td class="thumb-cell"><img src="images/icons/Sky-High_Sundae_Icon.webp" class="course-thumb"></td>
         </tr>
     </tbody>
-</table>
         </table>
         `
     },
