@@ -25,7 +25,6 @@ function renderPage(pageName) {
         video.volume = 0.2;
     });
 
-    document.dispatchEvent(new Event("pageRendered"));
 }
 
 function getCurrentPage() {

@@ -8,11 +8,22 @@ document.addEventListener('DOMContentLoaded', () => {
         sidebar.classList.toggle('open');
     });
 
- document.addEventListener("pageRendered", () => {
+ window.addEventListener('hashchange', () => {
     requestAnimationFrame(() => {
-        sidebar.classList.remove("open");
+        sidebar.classList.remove('open');
     });
 });
+
+    // ★これを追加
+    sidebar.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            const target = link.getAttribute("href");
+
+            if (target === location.hash || (target === "#home" && location.hash === "")) {
+                sidebar.classList.remove("open");
+            }
+        });
+    });
 
     document.addEventListener('click', (e) => {
         if (
