@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
         sidebar.classList.toggle('open');
     });
 
- window.addEventListener('hashchange', () => {
-    requestAnimationFrame(() => {
-        sidebar.classList.remove('open');
+    window.addEventListener('hashchange', () => {
+        requestAnimationFrame(() => {
+            sidebar.classList.remove('open');
+        });
+        updateCurrentLink(); // ★追加
     });
-});
 
-    // ★これを追加
     sidebar.querySelectorAll("a").forEach(link => {
         link.addEventListener("click", () => {
             const target = link.getAttribute("href");
@@ -34,4 +34,15 @@ document.addEventListener('DOMContentLoaded', () => {
             sidebar.classList.remove('open');
         }
     });
+
+    // ★これを追加：現在のリンクにcurrentクラスを付与
+    function updateCurrentLink() {
+        const current = location.hash || "#home";
+        sidebar.querySelectorAll("a").forEach(link => {
+            const href = link.getAttribute("href");
+            link.classList.toggle("current", href === current);
+        });
+    }
+
+    updateCurrentLink(); // 初回読み込み時にも実行
 });

@@ -206,9 +206,11 @@ video {
     margin-bottom: 20px;
 }
 
-
-
-
+.sidebar a {
+    display: block;
+    line-height: 1.9;      /* ★追加、数値を上げると行間が広がる */
+    margin-bottom: 8px;  /* ★追加、項目間の余白 */
+}
 
 
 
@@ -294,4 +296,9 @@ video {
 
 * {
     -webkit-tap-highlight-color: transparent;
+}
+
+.sidebar a.current {
+    color: #221fd4;
+    font-weight: bold;
 }
