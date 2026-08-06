@@ -26,6 +26,7 @@ h1 {
     width: 280px;
     flex-shrink: 0;
     background: rgba(197, 167, 103, 0);
+    /*background: rgba(0, 0, 0, 0.85); */
     padding: 30px;
     padding-right: 40px;
         padding-top: 80px; /* ここを増やすと全体が下にずれる */
@@ -304,3 +305,5 @@ video {
     color: #221fd4;
     font-weight: bold;
 }
+
+
