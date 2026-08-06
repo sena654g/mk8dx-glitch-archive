@@ -278,10 +278,7 @@ video {
         margin-right: auto;
     }
 
-    /* ← 追加: サイドバーが開いている間は本文を隠す */
-    .sidebar.open ~ .content {
-        /*display: none;*/
-    }
+ 
 
     .page:not(:has(.home-page)) .content {
         margin-left: 0;
