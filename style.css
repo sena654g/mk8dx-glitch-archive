@@ -233,6 +233,7 @@ video {
         width: 92vw;
         max-width: none;
         padding-top: 100px;
+        background: rgba(0, 0, 0, 0.85); 
     }
 
     .sidebar a {
@@ -278,7 +279,7 @@ video {
 
     /* ← 追加: サイドバーが開いている間は本文を隠す */
     .sidebar.open ~ .content {
-        display: none;
+        /*display: none;*/
     }
 
     .page:not(:has(.home-page)) .content {
