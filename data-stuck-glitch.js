@@ -81,7 +81,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck Glitch > Waluigi Stadium</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <img src="images/warusuta.jpg" alt="Waluigi Stadium">
+            <video src="videos/warusuta.mp4" controls width="600"></video>
             <p>You can get stuck by speeding up and jumping into the crane, which bounces you to the left side.</p>
         `
     },

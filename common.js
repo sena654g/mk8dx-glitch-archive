@@ -10,7 +10,10 @@ const pages = {
     ...driftOnDirtPages,
     ...blackHolePages,
     ...hiddenDashPanelPages,
-    ...trainGlitchPages
+    ...trainGlitchPages,
+    ...backwardClipGlitchPages,
+    ...backwardLakituGlitchPages,
+    ...blueShellStuckGlitchPages
 };
 
 function renderPage(pageName) {
