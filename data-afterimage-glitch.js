@@ -35,9 +35,8 @@ const afterimagePages = {
             <h1>Afterimage Glitch > Squeaky Clean Sprint</h1>
             <p><a href="#afterimage-glitch" class="back-link">Afterimage Glitch List</a></p>
             <video src="videos/afterimage-squeak-clean-sprint-1.mp4" controls width="600"></video>
+            <p>Crash into a wall while using a Mushroom or other speed boost to create an afterimage.<br><br><br><br></p>
             <video src="videos/afterimage-squeak-clean-sprint-2.mp4" controls width="600"></video>
-            <p>Crash into a wall while using a Mushroom or other speed boost to create an afterimage.</p>
-            <video src="videos/afterimage-squeak-clean-sprint-3.mp4" controls width="600"></video>
             <p>Use <a href="#edge-clip">Edge Clip</a> to fall below the ground and create an afterimage.</p>
         `
     }

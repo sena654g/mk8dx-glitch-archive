@@ -9,7 +9,8 @@ const pages = {
     ...wallCrossPages,
     ...driftOnDirtPages,
     ...blackHolePages,
-    ...hiddenDashPanelPages
+    ...hiddenDashPanelPages,
+    ...trainGlitchPages
 };
 
 function renderPage(pageName) {
