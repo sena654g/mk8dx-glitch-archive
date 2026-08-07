@@ -7,4 +7,5 @@ const pipeClipGlitchPages = {
             <p>You can use a Star to enter the pipe at the end of Piranha Plant Slide from above. Once you enter, the Star attack sound keeps playing. When the Star effect wears off, you come out of the pipe.</p>
         `
     }
+    
 };
