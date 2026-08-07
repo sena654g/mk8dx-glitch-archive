@@ -13,7 +13,8 @@ const pages = {
     ...trainGlitchPages,
     ...backwardClipGlitchPages,
     ...backwardLakituGlitchPages,
-    ...blueShellStuckGlitchPages
+    ...blueShellStuckGlitchPages,
+    ...mktvDebrisPages
 };
 
 function renderPage(pageName) {

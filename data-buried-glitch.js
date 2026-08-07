@@ -23,7 +23,7 @@ const buriedGlitchPages = {
         html: `
             <h1>Buried > Rainbow Road</h1>
             <p><a href="#buried-glitch" class="back-link">Buried Glitch List</a></p>
-            <video src="videos/buried-rainbow.mp4" controls width="600"></video>
+            <video src="videos/buried/Rainbow-Road.mp4" controls width="600"></video>
             <p></p>
         `
     },
@@ -32,7 +32,7 @@ const buriedGlitchPages = {
         html: `
             <h1>Buried > Sky-High Sundae</h1>
             <p><a href="#buried-glitch" class="back-link">Buried Glitch List</a></p>
-            <video src="videos/buried-ice.mp4" controls width="600"></video>
+            <video src="videos/buried/Sky-High-Sundae.mp4" controls width="600"></video>
             <p></p>
         `
     }

@@ -81,7 +81,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Waluigi Stadium</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/warusuta.mp4" controls width="600"></video>
+            <video src="videos/stuck/Waluigi-Stadium.mp4" controls width="600"></video>
             <p>You can get stuck by speeding up and jumping into the crane, which bounces you to the left side.</p>
         `
     },
@@ -90,7 +90,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Athens Dash</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/atene.mp4" controls width="600"></video>
+            <video src="videos/stuck/Athens-Dash.mp4" controls width="600"></video>
             <p>Drift into the tree object on the left early in the course.</p>
         `
     },
@@ -99,7 +99,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Twisted Mansion</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/twist.mp4" controls width="600"></video>
+            <video src="videos/stuck/Twisted-Mansion.mp4" controls width="600"></video>
             <p>Use a Mushroom on the sloped floor to the right to charge a Mini-Turbo, then hop to the left to get stuck.</p>
         `
     },
@@ -108,7 +108,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Los Angeles Laps</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/rosanze.mp4" controls width="600"></video>
+            <video src="videos/stuck/Los-Angeles-Laps.mp4" controls width="600"></video>
             <p>Glide into the moving object at the right timing to cancel your glider and become stuck. While stuck, your character continues moving in a unique way. This glitch is very difficult to perform.</p>
         `
     },
@@ -117,7 +117,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Merry Mountain</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/stuck-merry-mountain.mp4" controls width="600"></video>
+            <video src="videos/stuck/Merry-Mountain.mp4" controls width="600"></video>
             <p>If you use a mushroom to jump from the bridge at the beginning of the course toward the wall behind it, you can get stuck.</p>
         `
     },
@@ -126,7 +126,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Dolphin Shoals</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/misaki.mp4" controls width="600"></video>
+            <video src="videos/stuck/Dolphin-Shoals.mp4" controls width="600"></video>
             <p>Hold down while riding the current to rise upward, then ride onto the jellyfish to get stuck. Once stuck, your character tends to bob up and down. Moving the control stick causes the character to tilt.</p>
         `
     },
@@ -135,7 +135,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Ribbon Road</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/ribon.mp4" controls width="600"></video>
+            <video src="videos/stuck/Ribbon-Road.mp4" controls width="600"></video>
             <p>You can get stuck if you hit the cart's handle using the waves on the floor.</p>
         `
     },
@@ -144,7 +144,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Tick-Tock Clock</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/tikutaku.mp4" controls width="600"></video>
+            <video src="videos/stuck/Tick-Tock-Clock.mp4" controls width="600"></video>
             <p>Use a Mushroom to jump when the gear rotates forward.</p>
         `
     },
@@ -153,7 +153,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Sunshine Airport</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/sunshine.mp4" controls width="600"></video>
+            <video src="videos/stuck/Sunshine-Airport.mp4" controls width="600"></video>
             <p>Use an <a href="#edge-clip">Edge Clip</a> behind the airplane.</p>
         `
     },
@@ -162,7 +162,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Coconut Mall</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/coconut.mp4" controls width="600"></video>
+            <video src="videos/stuck/Coconut-Mall.mp4" controls width="600"></video>
             <p>You can get wedged between the rocks.</p>
         `
     },
@@ -171,7 +171,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Daisy Cruiser</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/dezikuru.mp4" controls width="600"></video>
+            <video src="videos/stuck/Daisy-Cruiser.mp4" controls width="600"></video>
             <p>While the table is moving, hit yourself with a Green Shell to get stuck.</p>
         `
     },
@@ -180,7 +180,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Grumble Volcano</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/gura.mp4" controls width="600"></video>
+            <video src="videos/stuck/Grumble-Volcano.mp4" controls width="600"></video>
             <p>Use a Mushroom near the wall to trigger a high jump.</p>
         `
     },
@@ -189,7 +189,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > DK Jungle</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/jungle.mp4" controls width="600"></video>
+            <video src="videos/stuck/DK-Jungle.mp4" controls width="600"></video>
             <p>Use a Mushroom to land on top of the rock.</p>
         `
     },
@@ -198,7 +198,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > DK Summit</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/kurosu.mp4" controls width="600"></video>
+            <video src="videos/stuck/DK-Summit.mp4" controls width="600"></video>
             <p>Ride onto the left side of the half-pipe with a bit of momentum to get stuck.</p>
         `
     },
@@ -207,7 +207,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Ninja Hideaway</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/nin.mp4" controls width="600"></video>
+            <video src="videos/stuck/Ninja-Hideaway.mp4" controls width="600"></video>
             <p>In 200cc, while the ground is rising, use a Mushroom to land on top of the sign.</p>
         `
     },
@@ -216,7 +216,7 @@ const stuckGlitchPages = {
         html: `
             <h1>Stuck > Piranha Plant Cove</h1>
             <p><a href="#stuck-glitch" class="back-link">Stuck Glitch List</a></p>
-            <video src="videos/pakusin.mp4" controls width="600"></video>
+            <video src="videos/stuck/Piranha-Plant-Cove.mp4" controls width="600"></video>
             <p>Use the water current to land on the anchor and get stuck.</p>
         `
     },

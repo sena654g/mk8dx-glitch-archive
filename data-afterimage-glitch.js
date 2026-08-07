@@ -25,9 +25,9 @@ const afterimagePages = {
         html: `
             <h1>Afterimage > Yoshi's Island</h1>
             <p><a href="#afterimage-glitch" class="back-link">Afterimage Glitch List</a></p>
-            <video src="videos/afterimage-yoshi-island-1.mp4" controls width="600"></video>
+            <video src="videos/afterimage/Yoshi’s-Island-1.mp4" controls width="600"></video>
             <p>After using <a href="#wall-cross">Wall Cross</a>, move toward the underwater area to see afterimages of the characters and visual effects.<br><br><br><br></p>            
-            <video src="videos/afterimage-yoshi-island-2.mp4" controls width="600"></video>
+            <video src="videos/afterimage/Yoshi’s-Island-2.mp4" controls width="600"></video>
             <p>If you use a Mushroom to clip through the wall, an afterimage briefly appears.</p>            `
     },
     "afterimage-squeak-clean-sprint": {
@@ -35,9 +35,9 @@ const afterimagePages = {
         html: `
             <h1>Afterimage > Squeaky Clean Sprint</h1>
             <p><a href="#afterimage-glitch" class="back-link">Afterimage Glitch List</a></p>
-            <video src="videos/afterimage-squeak-clean-sprint-1.mp4" controls width="600"></video>
+            <video src="videos/afterimage/Squeaky-Clean-Sprint-1.mp4" controls width="600"></video>
             <p>Crash into a wall while using a Mushroom or other speed boost to create an afterimage.<br><br><br><br></p>
-            <video src="videos/afterimage-squeak-clean-sprint-2.mp4" controls width="600"></video>
+            <video src="videos/afterimage/Squeaky-Clean-Sprint-2.mp4" controls width="600"></video>
             <p>Use <a href="#edge-clip">Edge Clip</a> to fall below the ground and create an afterimage.</p>
         `
     }
